@@ -55,3 +55,93 @@ max-width: 1100px;
     margin-left: 20px;
 
 }
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #fff;
+    font-size: 15px;;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+
+
+/* showcase */
+/* Showcase */
+.showcase {
+    width: 100%;
+    height: 400px;
+    background: url('https://i.ibb.co/zGSDGCL/slide1.png') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .showcase h2, .showcase p{
+      margin-bottom:10px;
+  }
+
+  .showcase .btn{
+    margin-top: 20px;
+  }
+
+  /* Homecards */
+  .home-cards{
+      display:grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 20px;
+
+  }
+  .home-cards img{
+      width: 100%; /* RESTRICTIVE. either they cant scape*/
+    margin-bottom:20px;
+  }
+
+  .home-cards h3{
+      margin-bottom:5px;
+  }
+
+  .home-cards a{
+      display: inline-block;
+    padding-top: 10px;
+    text-transform: uppercase;
+    color:#0067b8;
+    font-weight: bold;
+}
+
+.home-cards a:hover i{
+    margin-left:10px;
+
+}
+
+/* Xbox */
+.xbox{
+    width 100%;
+    height:350px;
+    background: url('https://i.ibb.co/tBJGPD9/xbox.png') no-repeat center center/cover;
+  margin-bottom: 20px;
+}
+
+.xbox .content{
+    width: 40%;
+    padding: 50px 0 0 30px;
+}
+
+.xbox p{
+    margin:10px 0 20px;
+}
+
+.carbon {
+    
+}
