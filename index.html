@@ -9,11 +9,15 @@
 
 </head>
 <body>
-   
+  <div class="menu-btn">
+    <i class="fas fa-bars fa-2x">
+
+    </i>
+  </div> 
 
   <div class="container">
     <!-- Nav -->
-    <nav class="main-nav">
+    <nav class="main-nav show">
       <img src="https://i.ibb.co/wwLhz98/logo.png" alt="Microsoft" class="logo">
 
       <ul class="main-menu">
@@ -157,6 +161,7 @@
     <img src="https://i.ibb.co/b30HMhR/social-linkedin.png" alt="Linkedin">
   </a>
 </section>
+</div>
 <!--- Links -->
   <section class="links">
     <div class="links-inner">
@@ -209,13 +214,13 @@
         <li><a href="#">Inverstors</a></li>
       </ul>
     </div>
-  </section>
+
 
   <!-- footer -->
-  <footer class="footer" >
-    <div class="footer-inner" >
+  <footer class="footer">
+    <div class="footer-inner">
       <div>
-        <i class="fas fa-globe fa-2x"></i>English (United States) </div>
+        <i class="fas fa-globe fa-2x"></i> English (United States) </div>
         <ul>
           <li><a href="#">Sitemap</a></li>
           <li><a href="#"></a>Contact Microsoft</li>
@@ -229,9 +234,11 @@
       </div>
     </footer>
 
-    </div>
 
-
+  </section>
+<script>
+  document.querySelector('.menu-btn').addEventListener('click',() => document.querySelector('.main-menu').classList.toggle('show'));
+</script>
  <!--remover div de esta parte hacia arriba-->
 </body>
 </html>
